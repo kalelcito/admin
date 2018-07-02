@@ -2,23 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd3f95ee-fe1f-4791-a4b8-69c44b085a25" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/doctrine_extensions.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/Controller/SecurityController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Entity/Administradores.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Entity/AdministradoresRepository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Listener/DoctrineExtensionListener.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/Bundle.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/Configuration.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/DefaultController.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/DefaultControllerTest.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/Extension.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/index.html.twig.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/routing.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/routing.xml.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/routing.yml.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/services.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/services.xml.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/services.yml.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/command/Command.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/controller/Controller.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/controller/ControllerTest.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/controller/Template.html.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/controller/Template.html.twig.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/actions/delete.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/actions/edit.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/actions/index.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/actions/new.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/actions/show.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/config/routing.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/config/routing.xml.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/config/routing.yml.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/controller.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/tests/others/full_scenario.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/tests/others/short_scenario.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/tests/test.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/views/edit.html.twig.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/views/index.html.twig.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/views/new.html.twig.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/views/others/footerform_actions.html.twig.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/views/others/record_actions.html.twig.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/crud/views/show.html.twig.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/form/FormType.php.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Services/Encrypt.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Services/Mailer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Twig/CoreExtension.php" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/admin.iml" afterPath="$PROJECT_DIR$/.idea/admin.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php" />
-      <change beforePath="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/login.html.twig" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/login.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/AdminBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/views/layout.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/CoreBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/config/services.yml" />
+      <change beforePath="$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/AdminBundle/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/login.html.twig" />
         <option value="$PROJECT_DIR$/src/AdminBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/CoreBundle/Twig/CoreExtension.php" />
+        <option value="$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -300,27 +328,6 @@
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AdminBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AdminBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AdminBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -337,10 +344,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\TI_CESAR\xampp\htdocs\admin\src\CoreBundle" />
+      <recent name="E:\TI_CESAR\xampp\htdocs\admin\src\CoreBundle\Resources" />
       <recent name="E:\TI_CESAR\xampp\htdocs\admin\src\AdminBundle\Controller" />
       <recent name="E:\TI_CESAR\xampp\htdocs\admin\app\config" />
       <recent name="E:\TI_CESAR\xampp\htdocs\admin\src\CoreBundle\Entity" />
-      <recent name="E:\TI_CESAR\xampp\htdocs\admin\web\admin\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -370,12 +377,12 @@
       <updated>1530211496116</updated>
       <workItem from="1530211497340" duration="22465000" />
       <workItem from="1530547138439" duration="2698000" />
-      <workItem from="1530551622855" duration="1922000" />
+      <workItem from="1530551622855" duration="2286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27085000" />
+    <option name="totallyTimeSpent" value="27449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -411,51 +418,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding>
-            <element signature="e#329#366#1#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="16" column="80" lean-forward="false" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/framework/css/body.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1902">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/css/vendors.css" />
-    <entry file="file://$PROJECT_DIR$/web/admin/css/pace.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/js/dashboard-sales.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -497,13 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -665,8 +620,8 @@
         <state relative-caret-position="425">
           <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
           <folding>
-            <element signature="e#42#99#0#PHP" expanded="true" />
-            <element signature="e#763#795#0#PHP" expanded="true" />
+            <element signature="e#42#99#0#PHP" expanded="false" />
+            <element signature="e#763#795#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -684,7 +639,7 @@
         <state relative-caret-position="526">
           <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
           <folding>
-            <element signature="e#3836#3846#0#Twig" expanded="true" />
+            <element signature="e#3836#3846#0#Twig" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -697,10 +652,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Twig/CoreExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <marker date="1530553666408" expanded="true" signature="486:499" ph="..." />
+            <marker date="1530553666408" expanded="true" signature="582:593" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/Bundle.php.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/Configuration.php.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/DefaultController.php.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/DefaultControllerTest.php.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/Extension.php.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/index.html.twig.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/routing.php.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/routing.xml.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/routing.yml.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/bundle/services.php.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/command/Command.php.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/controller/Controller.php.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Resources/SensioGeneratorBundle/skeleton/form/FormType.php.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
