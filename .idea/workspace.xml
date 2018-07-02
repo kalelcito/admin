@@ -2,134 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd3f95ee-fe1f-4791-a4b8-69c44b085a25" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/admin.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webResources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/.htaccess" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/AppCache.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/autoload.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config_test.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/services.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/console" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer.phar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml.dist" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/.htaccess" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/AdminBundle.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/config/services.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/login.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/views/layout.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Controller/DefaultController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/CoreBundle.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/config/services.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Resources/views/Default/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FrontendBundle/Controller/DefaultController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FrontendBundle/FrontendBundle.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FrontendBundle/Resources/config/services.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FrontendBundle/Resources/views/Default/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AdminBundle/Controller/DefaultControllerTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/CoreBundle/Controller/DefaultControllerTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/FrontendBundle/Controller/DefaultControllerTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/var/cache/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/var/logs/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/var/sessions/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/.htaccess" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap-extended.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/colors.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/components.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/custom.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/flag-icon.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/flat_all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/futurico.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/jquery-jvectormap-2.0.3.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/line-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/line_all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/login-register.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/minimal_all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/morris.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/pace.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/palette-gradient.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/polaris.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/square_all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/style-ci.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/style-fonts.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/style.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/css/vertical-menu-modern.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/fonts/feather.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/fonts/feather.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/fonts/feather.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/fonts/feather.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/fonts/line-awesome.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/fonts/line-awesome.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/fonts/line-awesome.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/fonts/line-awesome.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/fonts/line-awesome.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/apple-icon-120.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/avatar-s-1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/avatar-s-11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/avatar-s-12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/avatar-s-2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/avatar-s-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/avatar-s-4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/avatar-s-5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/avatar-s-6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/avatar-s-7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/avatar-s-8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/avatar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/bg-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/blue.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/fr.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/gb.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/icon_ci_32x32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/logo-ci-black.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/logo-ci.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/logo-dark.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/mx.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/images/slider-2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/app-menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/app.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/chart.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/customizer.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/dashboard-sales.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/form-login-register.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/icheck.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/jqBootstrapValidation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/jquery-jvectormap-2.0.3.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/jquery-jvectormap-world-mill.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/morris.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/raphael-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/vendors.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/visitor-data.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/app.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/app_dev.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/config.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/robots.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/doctrine_extensions.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/Controller/SecurityController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Entity/Administradores.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Entity/AdministradoresRepository.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CoreBundle/Listener/DoctrineExtensionListener.php" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/.idea/admin.iml" afterPath="$PROJECT_DIR$/.idea/admin.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change beforePath="$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php" />
+      <change beforePath="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/login.html.twig" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/login.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/AdminBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/views/layout.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -186,22 +75,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/web/admin/js/dashboard-sales.min.js" />
         <option value="$PROJECT_DIR$/web/admin/js/customizer.min.js" />
         <option value="$PROJECT_DIR$/web/admin/css/style.min.css" />
         <option value="$PROJECT_DIR$/web/admin/css/flag-icon.min.css" />
         <option value="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/AdminBundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/web/admin/css/app.css" />
         <option value="$PROJECT_DIR$/web/admin/css/components.min.css" />
         <option value="$PROJECT_DIR$/web/admin/css/flat_all.css" />
         <option value="$PROJECT_DIR$/web/admin/css/minimal_all.css" />
         <option value="$PROJECT_DIR$/web/admin/css/square_all.css" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/CoreBundle/Entity/AdministradoresRepository.php" />
+        <option value="$PROJECT_DIR$/src/CoreBundle/Entity/Administradores.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/AdminBundle/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/AdminBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -251,6 +146,8 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -398,6 +295,32 @@
               <item name="admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdminBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdminBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdminBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -413,11 +336,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TI_CESAR\xampp\htdocs\admin\src\CoreBundle" />
+      <recent name="E:\TI_CESAR\xampp\htdocs\admin\src\AdminBundle\Controller" />
+      <recent name="E:\TI_CESAR\xampp\htdocs\admin\app\config" />
+      <recent name="E:\TI_CESAR\xampp\htdocs\admin\src\CoreBundle\Entity" />
       <recent name="E:\TI_CESAR\xampp\htdocs\admin\web\admin\images" />
-      <recent name="E:\TI_CESAR\xampp\htdocs\admin\web\admin\css" />
-      <recent name="E:\TI_CESAR\xampp\htdocs\admin\web\admin\js" />
-      <recent name="E:\TI_CESAR\xampp\htdocs\admin\src\AdminBundle\Resources\views" />
-      <recent name="E:\TI_CESAR\xampp\htdocs\admin\web\admin\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -447,12 +370,12 @@
       <updated>1530211496116</updated>
       <workItem from="1530211497340" duration="22465000" />
       <workItem from="1530547138439" duration="2698000" />
-      <workItem from="1530551622855" duration="40000" />
+      <workItem from="1530551622855" duration="1922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25203000" />
+    <option name="totallyTimeSpent" value="27085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -501,37 +424,8 @@
         <state relative-caret-position="357">
           <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
           <folding>
-            <element signature="e#329#366#1#PHP" expanded="true" />
-            <element signature="e#494#526#1#PHP" expanded="true" />
+            <element signature="e#329#366#1#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -603,13 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="70" column="96" lean-forward="true" selection-start-line="70" selection-start-column="96" selection-end-line="70" selection-end-column="96" />
         </state>
       </provider>
     </entry>
@@ -703,29 +590,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Entity/AdministradoresRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#37#99#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreBundle/Entity/Administradores.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="329" column="1" lean-forward="true" selection-start-line="329" selection-start-column="1" selection-end-line="329" selection-end-column="1" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1461">
+          <caret line="91" column="31" lean-forward="false" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="238">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="e#329#366#1#PHP" expanded="true" />
-            <element signature="e#494#526#1#PHP" expanded="true" />
+            <element signature="e#329#366#1#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+          <folding>
+            <element signature="e#42#99#0#PHP" expanded="true" />
+            <element signature="e#763#795#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/doctrine_extensions.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-647">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="526">
+          <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+          <folding>
+            <element signature="e#3836#3846#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="70" column="115" lean-forward="false" selection-start-line="70" selection-start-column="115" selection-end-line="70" selection-end-column="115" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>

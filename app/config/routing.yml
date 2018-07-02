@@ -1,3 +1,6 @@
+logoutadmin:
+    path: /admin/logout
+
 admin:
     resource: "@AdminBundle/Controller/"
     type:     annotation

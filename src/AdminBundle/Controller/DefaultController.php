@@ -14,11 +14,4 @@ class DefaultController extends Controller
     {
         return $this->render('AdminBundle:Default:index.html.twig');
     }
-
-    /**
-     * @Route("/login", name="login")
-     */
-    public function loginAction(){
-        return $this->render('@Admin/Default/login.html.twig');
-    }
 }

@@ -49,16 +49,16 @@
                                     <span>Acceso a Administrador</span>
                                 </p>
                                 <div class="card-body">
-                                    <form class="form-horizontal" action="index.html" novalidate>
+                                    <form class="form-horizontal" action="{{ path('adminlogin') }}" novalidate id="loginform" method="post">
                                         <fieldset class="form-group position-relative has-icon-left">
-                                            <input type="text" class="form-control" id="user-name" placeholder="Username"
+                                            <input type="text" class="form-control" id="username" name="_username" placeholder="Username"
                                                    required>
                                             <div class="form-control-position">
                                                 <i class="ft-user"></i>
                                             </div>
                                         </fieldset>
                                         <fieldset class="form-group position-relative has-icon-left">
-                                            <input type="password" class="form-control" id="user-password" placeholder="Password"
+                                            <input type="password" class="form-control" id="password" name="_password" placeholder="Password"
                                                    required>
                                             <div class="form-control-position">
                                                 <i class="la la-key"></i>
