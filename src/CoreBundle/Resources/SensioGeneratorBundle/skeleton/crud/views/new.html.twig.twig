@@ -4,13 +4,19 @@
 
 {{ "{% block stylesheets %}" }}
     {{ "{{ parent() }}" }}
-
+    <link href="{{  "{{ asset('admin/plugins/icheck/vendors.css') }}" }}" rel="stylesheet" type="text/css" />
+    <link href="{{  "{{ asset('admin/plugins/icheck/app.css') }}" }}" rel="stylesheet" type="text/css" />
+    <link href="{{  "{{ asset('admin/plugins/icheck/icheck.css') }}" }}" rel="stylesheet" type="text/css" />
+    <link href="{{  "{{ asset('admin/plugins/icheck/custom.css') }}" }}" rel="stylesheet" type="text/css" />
+    <link href="{{  "{{ asset('admin/plugins/icheck/checkboxes-radios.css') }}" }}" rel="stylesheet" type="text/css" />
 {{ "{% endblock %}" }}
 
 {{ "{% block javascripts %}" }}
     {{ "{{ parent() }}" }}
-
+    <script src="{{  "{{ asset('admin/plugins/icheck/icheck.min.js') }}" }}"></script>
+    <script src="{{  "{{ asset('admin/plugins/icheck/checkbox-radio.js') }}" }}"></script>
 {{ "{% endblock %}" }}
+
 {% block body %}
 {{ "{% block body %}" }}
 
