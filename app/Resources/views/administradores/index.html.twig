@@ -1,0 +1,64 @@
+    {% extends '@Admin/layout.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="{{ asset('admin/css/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('admin/js/jquery.dataTables.min.js') }}"></script><script>
+    $(document).ready(function(){
+        $('#myTable').DataTable({
+            "scrollX": true
+        });
+    });
+    </script>
+{% endblock %}
+
+{% block body %}
+    <section id="horizontal">
+        <div class="row">
+            <div class="col-12">
+                <div class="card border-success">
+                    <div class="card-header bg-success text-white">
+                        <h4 class="card-title text-white">Administradores</h4>
+                        <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                        <div class="heading-elements">
+                            <ul class="list-inline mb-0">
+                                <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                                <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                                <li><a data-action="close"><i class="ft-x"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-content collapse show">
+                        <div class="card-body card-dashboard">
+                            <p class="card-text">Lista de Administradores.</p>
+                            <table id="myTable" class="table table-striped table-bordered scroll-horizontal">
+                                <thead>
+                                <tr>
+                                    <th>No.</th>                                        <th>Id</th>                                        <th>Nombre</th>                                        <th>Apellido</th>                                        <th>Email</th>                                        <th>Password</th>                                        <th>Salt</th>                                        <th>Activo</th>                                        <th>Created_at</th>                                        <th>Updated_at</th>                                    <th>Opciones</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {% set i = 1 %}
+                                {% for administradore in administradores %}
+                                <tr>
+                                    <td>{{ i }}</td>                                            <td><a href="{{ path('administradores_show', { 'id': administradore.id }) }}">{{ administradore.id }}</a></td>                                            <td>{{ administradore.nombre }}</td>                                            <td>{{ administradore.apellido }}</td>                                            <td>{{ administradore.email }}</td>                                            <td>{{ administradore.password }}</td>                                            <td>{{ administradore.salt }}</td>                                            <td>{{ administradore.activo|sino }}</td>                                            <td>{% if administradore.createdat %}{{ administradore.createdat|date('Y-m-d H:i:s') }}{% endif %}</td>                                            <td>{% if administradore.updatedat %}{{ administradore.updatedat|date('Y-m-d H:i:s') }}{% endif %}</td>                                            <td>
+                                                <div class="btn-group btn-group-xs">
+                                                    <a href="{{ path('administradores_show', { 'id': administradore.id }) }}" data-toggle="tooltip" title="Ver" class="btn btn-default"><i class="la la-eye zoom"></i></a>
+                                                    <a href="{{ path('administradores_edit', { 'id': administradore.id }) }}" data-toggle="tooltip" title="Editar" class="btn btn-default"><i class="la la-pencil-square zoom"></i></a>
+                                                </div>
+                                            </td>                                </tr>
+                                {% set i=i+1 %}
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

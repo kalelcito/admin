@@ -20,9 +20,9 @@ class CoreExtension extends \Twig_Extension
     {
         $result='';
         if($value){
-            $result='<i class="fa fa-check-circle" style="color: green;" ></i>';
+            $result='<i class="la la-check-circle" style="color: green;" ></i>';
         }else{
-            $result='<i class="fa fa-times-circle" style="color: red;" ></i>';
+            $result='<i class="la la-times-circle" style="color: red;" ></i>';
         }
         return $result;
     }

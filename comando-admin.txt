@@ -1,0 +1,1 @@
+php bin/console generate:doctrine:crud --entity=CoreBundle:Administradores --format=annotation --with-write --no-interaction --overwrite

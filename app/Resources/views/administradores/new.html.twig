@@ -1,18 +1,15 @@
-{% block extends %}
-    {{ "{% extends '@Admin/layout.html.twig' %}" }}
-{% endblock extends %}
+    {% extends '@Admin/layout.html.twig' %}
 
-{{ "{% block stylesheets %}" }}
-    {{ "{{ parent() }}" }}
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="{{ asset('admin/css/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css" />
+{% endblock %}
 
-{{ "{% endblock %}" }}
+{% block javascripts %}
+    {{ parent() }}
 
-{{ "{% block javascripts %}" }}
-    {{ "{{ parent() }}" }}
-
-{{ "{% endblock %}" }}
+{% endblock %}
 {% block body %}
-{{ "{% block body %}" }}
 
     <section id="description-list-alignment">
         <div class="row">
@@ -20,7 +17,7 @@
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Nuevo Registro
-                            <small class="text-muted">{{ entity }}</small>
+                            <small class="text-muted">Administradores</small>
                         </h4>
                         <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
                         <div class="heading-elements">
@@ -32,17 +29,15 @@
                     <div class="card-content">
                         <div class="card-body">
                             <div class="card-text">
-                                {{ "{% form_theme form '@Admin/form/ci_bootstrap_3_horizontal_layout.html.twig' %}" }}
-                                {{ '{{ form_start(form) }}' }}
-                                {{ '{{ form_widget(form) }}' }}
+                                {% form_theme form '@Admin/form/ci_bootstrap_3_horizontal_layout.html.twig' %}
+                                {{ form_start(form) }}
+                                {{ form_widget(form) }}
                                 <div class="form-group m-b-0">
                                     <div class="col-sm-12">
-                                        {% set hide_edit, hide_delete = true, true %}
-                                        {{ include('crud/views/others/footerform_actions.html.twig.twig') -}}
-                                        <button type="submit" class="btn btn-success round btn-min-width mr-1 mb-1" >Guardar</button>
+                                                                                            <a class="btn btn-secondary round btn-min-width mr-1 mb-1" href="{{ path('administradores_index') }}">Regresar</a><button type="submit" class="btn btn-success round btn-min-width mr-1 mb-1" >Guardar</button>
                                     </div>
                                 </div>
-                                {{ '{{ form_end(form) }}' }}
+                                {{ form_end(form) }}
                             </div>
                         </div>
                     </div>
@@ -51,5 +46,4 @@
         </div>
     </section>
 
-{{ "{% endblock %}" }}
-{% endblock body %}
+{% endblock %}

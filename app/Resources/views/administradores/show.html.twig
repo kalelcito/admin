@@ -1,0 +1,70 @@
+    {% extends '@Admin/layout.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+
+{% endblock %}
+
+    {% block body %}
+
+    <section id="description-list-alignment">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Ver Registro
+                            <small class="text-muted">Administradores</small>
+                        </h4>
+                        <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                        <div class="heading-elements">
+                            <ul class="list-inline mb-0">
+                                <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-body">
+                            <div class="card-text">                                    <dl class="row">
+                                        <dt class="col-sm-3 text-right">Id</dt>
+                                        <dd class="col-sm-9">                                                {{ administradore.id }}                                        </dd>
+                                    </dl>                                    <dl class="row">
+                                        <dt class="col-sm-3 text-right">Nombre</dt>
+                                        <dd class="col-sm-9">                                                {{ administradore.nombre }}                                        </dd>
+                                    </dl>                                    <dl class="row">
+                                        <dt class="col-sm-3 text-right">Apellido</dt>
+                                        <dd class="col-sm-9">                                                {{ administradore.apellido }}                                        </dd>
+                                    </dl>                                    <dl class="row">
+                                        <dt class="col-sm-3 text-right">Email</dt>
+                                        <dd class="col-sm-9">                                                {{ administradore.email }}                                        </dd>
+                                    </dl>                                    <dl class="row">
+                                        <dt class="col-sm-3 text-right">Password</dt>
+                                        <dd class="col-sm-9">                                                {{ administradore.password }}                                        </dd>
+                                    </dl>                                    <dl class="row">
+                                        <dt class="col-sm-3 text-right">Salt</dt>
+                                        <dd class="col-sm-9">                                                {{ administradore.salt }}                                        </dd>
+                                    </dl>                                    <dl class="row">
+                                        <dt class="col-sm-3 text-right">Activo</dt>
+                                        <dd class="col-sm-9">                                                {{ administradore.activo|sino }}                                        </dd>
+                                    </dl>                                    <dl class="row">
+                                        <dt class="col-sm-3 text-right">Created_at</dt>
+                                        <dd class="col-sm-9">                                                {% if administradore.createdat %}{{ administradore.createdat|date('Y-m-d H:i:s') }}{% endif %}                                        </dd>
+                                    </dl>                                    <dl class="row">
+                                        <dt class="col-sm-3 text-right">Updated_at</dt>
+                                        <dd class="col-sm-9">                                                {% if administradore.updatedat %}{{ administradore.updatedat|date('Y-m-d H:i:s') }}{% endif %}                                        </dd>
+                                    </dl>                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                                                                            <a class="btn btn-secondary round btn-min-width mr-1 mb-1" href="{{ path('administradores_index') }}">Regresar</a>            <a class="btn btn-info round btn-min-width mr-1 mb-1" href="{{ path('administradores_edit', { 'id': administradore.id }) }}">Editar</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock %}

@@ -1,9 +1,6 @@
 {% block extends %}
-    {{ "{% extends '@Admin/base.html.twig' %}" }}
+    {{ "{% extends '@Admin/layout.html.twig' %}" }}
 {% endblock extends %}
-{{ "{% block navegacion %}" }}
-{{ "{{ include('@Admin/partials/navegacion.html.twig',{'menu':'CI','submenu':'"}}{{ entity }}{{ "'}) }}" }}
-{{ "{% endblock %}" }}
 
 {{ "{% block stylesheets %}" }}
     {{ "{{ parent() }}" }}
@@ -12,48 +9,61 @@
 
 {{ "{% block javascripts %}" }}
     {{ "{{ parent() }}" }}
-<script src="{{  "{{ asset('admin/js/jasny-bootstrap.js') }}" }}"></script>
+
 {{ "{% endblock %}" }}
 
 {% block body %}
     {{ "{% block body %}" }}
-    <div class="row">
-        <div class="col-md-12">
-            <div class="white-box">
-                <h3 class="box-title m-b-0">Ver Registro</h3>{#
-                    <p class="text-muted m-b-30 font-17"> </p>#}
-                <form class="form-horizontal" role="form">
-                    {%- for field, metadata in fields %}
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">{{ field|capitalize }}</label>
-                            <div class="col-sm-10">
-                                <p class="form-control-static">
-                                    {%- if metadata.type in ['datetime'] %}
-                                        {{ '{% if ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ ' %}{{ ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ '|date(\'Y-m-d H:i:s\') }}{% endif %}' }}
-                                    {%- elseif metadata.type in ['date'] %}
-                                        {{ '{% if ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ ' %}{{ ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ '|date(\'Y-m-d\') }}{% endif %}' }}
-                                    {%- elseif metadata.type in ['time'] %}
-                                        {{ '{% if ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ ' %}{{ ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ '|date(\'H:i:s\') }}{% endif %}' }}
-                                    {%- elseif metadata.type in ['array'] %}
-                                        {{ '{% if ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ ' %}{{ ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ '|join(\', \') }}{% endif %}' }}
-                                    {%- elseif metadata.type in ['boolean'] %}
-                                        {{ '{% if ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ ' %}Yes{% else %}No{% endif %}' }}
-                                    {%- else %}
-                                        {{ '{{ ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ ' }}' }}
-                                    {%- endif %}
-                                </p>
-                            </div>
-                        </div>
-                    {%- endfor %}
-                    <div class="form-group m-b-0">
-                        <div class="col-sm-12">
-                            {% set hide_edit, hide_delete = false, true %}
-                            {{ include('crud/views/others/footerform_actions.html.twig.twig') -}}
+
+    <section id="description-list-alignment">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Ver Registro
+                            <small class="text-muted">{{ entity }}</small>
+                        </h4>
+                        <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                        <div class="heading-elements">
+                            <ul class="list-inline mb-0">
+                                <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                            </ul>
                         </div>
                     </div>
-                </form>
+                    <div class="card-content">
+                        <div class="card-body">
+                            <div class="card-text">
+                                {%- for field, metadata in fields %}
+                                    <dl class="row">
+                                        <dt class="col-sm-3 text-right">{{ field|capitalize }}</dt>
+                                        <dd class="col-sm-9">{%- if metadata.type in ['datetime'] %}
+                                                {{ '{% if ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ ' %}{{ ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ '|date(\'Y-m-d H:i:s\') }}{% endif %}' }}
+                                            {%- elseif metadata.type in ['date'] %}
+                                                {{ '{% if ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ ' %}{{ ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ '|date(\'Y-m-d\') }}{% endif %}' }}
+                                            {%- elseif metadata.type in ['time'] %}
+                                                {{ '{% if ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ ' %}{{ ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ '|date(\'H:i:s\') }}{% endif %}' }}
+                                            {%- elseif metadata.type in ['array'] %}
+                                                {{ '{% if ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ ' %}{{ ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ '|join(\', \') }}{% endif %}' }}
+                                            {%- elseif metadata.type in ['boolean'] %}
+                                                {{'{{ '~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ '|sino }}' }}
+                                            {%- else %}
+                                                {{ '{{ ' ~ entity_singularized ~ '.' ~ field|replace({'_': ''}) ~ ' }}' }}
+                                            {%- endif %}
+                                        </dd>
+                                    </dl>
+                                {%- endfor %}
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        {% set hide_edit, hide_delete = false, true %}
+                                        {{ include('crud/views/others/footerform_actions.html.twig.twig') -}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     {{ "{% endblock %}" }}
 {% endblock body %}

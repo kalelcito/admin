@@ -1,9 +1,6 @@
 {% block extends %}
-    {{ "{% extends '@Admin/base.html.twig' %}" }}
+    {{ "{% extends '@Admin/layout.html.twig' %}" }}
 {% endblock extends %}
-{{ "{% block navegacion %}" }}
-{{ "{{ include('@Admin/partials/navegacion.html.twig',{'menu':'CI','submenu':'"}}{{ entity }}{{ "'}) }}" }}
-{{ "{% endblock %}" }}
 
 {{ "{% block stylesheets %}" }}
     {{ "{{ parent() }}" }}
@@ -12,7 +9,7 @@
 
 {{ "{% block javascripts %}" }}
     {{ "{{ parent() }}" }}
-<script src="{{  "{{ asset('admin/js/jasny-bootstrap.js') }}" }}"></script>
+
 {{ "{% endblock %}" }}
 
 {% block body %}
@@ -21,9 +18,8 @@
     <div class="row">
         <div class="col-md-12">
             <div class="white-box" style="margin-bottom: -15px;">
-                <h3 class="box-title m-b-0">Editar Registro</h3>{#
-                    <p class="text-muted m-b-30 font-17"> </p>#}
-                {{ "{% form_theme edit_form '@Admin/form/innology_bootstrap_3_horizontal_layout.html.twig' %}" }}
+                <h3 class="box-title m-b-0">Editar Registro</h3>
+                {{ "{% form_theme edit_form '@Admin/form/ci_bootstrap_3_horizontal_layout.html.twig' %}" }}
             </div>
                 <div class="form-group m-b-0">
                     <div class="col-sm-12 white-box">

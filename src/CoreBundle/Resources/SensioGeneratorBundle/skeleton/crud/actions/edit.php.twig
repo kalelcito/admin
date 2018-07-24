@@ -25,7 +25,6 @@
             $em->persist(${{ entity_singularized }});
             $em->flush();
 
-            //return $this->redirectToRoute('{{ route_name_prefix }}_edit', array('id' => ${{ entity_singularized }}->getId()));
             return $this->redirectToRoute('{{ route_name_prefix }}_index');
 
         }
